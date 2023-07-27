@@ -3,8 +3,7 @@ a customized LayoutManager - fade and shrink the head itemView when scrolling. s
 
 ### 实现效果
 ![image](https://s2.loli.net/2023/07/27/UVK5rJmWNXFE7IY.png)
-![image](https://github.com/Victor2018/VegaLayoutManager/blob/main/SrceenShot/rendering.gif){ width=50% height=auto }
-
+<img src="https://github.com/Victor2018/VegaLayoutManager/blob/main/SrceenShot/rendering.gif" width = "275" height = "569"  /><br>
 
 ### 代码思路
 RecyclerView最顶部的itemView，会随着手指滑动实现收缩隐藏与放大显示，并伴随recycler的回收与复用。<br><br>
