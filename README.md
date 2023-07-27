@@ -1,8 +1,8 @@
 # VegaLayoutManager
-a customized LayoutManager - fade and shrink the head itemView when scrolling.
+a customized LayoutManager - fade and shrink the head itemView when scrolling. support horizontal & vertical
 
 ### 实现效果
- ![image](https://github.com/Victor2018/VegaLayoutManager/raw/master/SrceenShot/horizontal_vertical.gif)
+ ![image](https://github.com/Victor2018/VegaLayoutManager/blob/master/SrceenShot/horizontal_vertical.gif?raw=true)
 
 
 ### 代码思路
@@ -19,17 +19,18 @@ implementation 'com.github.Victor2018:VegaLayoutManager:latestVersion'
 ```kotlin
  - 水平方向滚动
     recyclerView.ayoutManager = VegaLayoutManager(VegaLayoutManager.HORIZONTAL)
+
  - 垂直方向滚动
     recyclerView.ayoutManager = VegaLayoutManager(VegaLayoutManager.VERTICAL)
 ```
 
 ### demo下载
-[点击下载](https://github.com/Victor2018/VegaLayoutManager/raw/master/SrceenShot/app-debug.apk)
+[点击下载](https://github.com/Victor2018/VegaLayoutManager/blob/master/SrceenShot/app-debug.apk?raw=true)
 
 # 关注开发者：
 - 邮箱： victor423099@gmail.com
 - 新浪微博
-- ![image](https://github.com/Victor2018/VegaLayoutManager/raw/master/SrceenShot/sina_weibo.jpg)
+- ![image](https://github.com/Victor2018/AppUpdateLib/raw/master/SrceenShot/sina_weibo.jpg)
 
 ### 感谢
 https://github.com/xmuSistone/VegaLayoutManager
