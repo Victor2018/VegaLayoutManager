@@ -12,7 +12,7 @@ RecyclerView最顶部的itemView，会随着手指滑动实现收缩隐藏与放
 
 ### 使用方法
 - Step 1. Add the JitPack repository to your build or setting file
-- 
+
 ```
 build file:
 allprojects {
@@ -31,7 +31,7 @@ dependencyResolutionManagement {
 }
 ```
 - Step 2. Add the dependency
-- 
+
 ```
 dependencies {
     implementation 'com.github.Victor2018:VegaLayoutManager:latestVersion'
