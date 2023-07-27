@@ -11,11 +11,34 @@ RecyclerView最顶部的itemView，会随着手指滑动实现收缩隐藏与放
 由于想要在任意时刻都能snap到第一个子View，所以在LayoutManager中用了比较讨巧的方法去设定scroll的最大值。
 
 ### 使用方法
-1. gradle引入
-```gradle
-implementation 'com.github.Victor2018:VegaLayoutManager:latestVersion'
+- Step 1. Add the JitPack repository to your build or setting file
+- 
 ```
-2. java文件中设定LayoutManager
+build file:
+allprojects {
+    repositories {
+        ...
+     maven { url "https://jitpack.io" }
+    }
+}
+
+or setting file:
+dependencyResolutionManagement {
+    repositories {
+        ...
+        maven { url "https://jitpack.io" }
+    }
+}
+```
+- Step 2. Add the dependency
+- 
+```
+dependencies {
+    implementation 'com.github.Victor2018:VegaLayoutManager:latestVersion'
+}
+```
+
+- Step 3.  set layoutManager for recyclerView by kotlin
 ```kotlin
  - 水平方向滚动
     recyclerView.ayoutManager = VegaLayoutManager(VegaLayoutManager.HORIZONTAL)
