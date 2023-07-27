@@ -2,7 +2,7 @@
 a customized LayoutManager - fade and shrink the head itemView when scrolling. support horizontal & vertical
 
 ### 实现效果
-![image](https://github.com/Victor2018/VegaLayoutManager/raw/master/SrceenShot/preview.png)
+![image](https://s2.loli.net/2023/07/27/UVK5rJmWNXFE7IY.png)
 ![image](https://github.com/Victor2018/VegaLayoutManager/raw/master/SrceenShot/rendering.gif)
 
 
